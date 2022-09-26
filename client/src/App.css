@@ -1,0 +1,902 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300&family=Roboto:wght@100;300;400&display=swap');
+
+/* traitement des icons-social du top navbar */
+.ftco-top-social {
+  list-style: none;
+  display: flex;
+}
+/* fin de traitement */
+
+.navbar-brand {
+  margin-right: 120px;
+}
+
+/* traitement des carrousel */
+.carousel-caption {
+  margin-bottom: 400px;
+  font-size: 15px;
+  font-family: 'Roboto Slab', serif;
+  background-color: #0072BE;
+  padding: 40px;
+
+}
+/* fin de traitement des carrousel */
+
+/* traitement de la seection nos mission */
+.our-mission {
+
+  padding-top: 40px;
+  padding-bottom: 80px;
+  margin-bottom: 50px;
+  background-color: #f2f2f2;
+
+}
+/* fin de traitement */
+
+/* traitement des main-heading de toute les pages, de leur underline */
+.main-heading {
+  color: rgba(0, 0, 0, 0.815);
+  font-size: 35px;
+  font-family: 'Roboto Slab', serif;
+  font-weight: bold;
+}
+
+.underline {
+  height: 04px;
+  width: 6rem;
+  background-color: rgba(0, 0, 0, 0.815);
+  margin-top: 10px;
+  margin-bottom: 60px;
+}
+/* fin du traitement */
+
+
+/* debut du traitement des div neutre en dessous des cards */
+.color {
+  height: 40px;
+  width: 100%;
+  background-color: #0072BE;
+}
+/* fin du traitement */
+
+/* traitement des cards text */
+.card-text{
+
+  padding: 10px;
+}
+/* titement de la sous section give */
+.region {
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #0072BE;
+  padding: 50px;
+}
+/* fin de traitement */
+
+/* traitement des images de cards */
+.card-img-top {
+  height: 300px;
+}
+
+/* fin de traitement */
+
+
+/* traitement de la section devenir partenaire (join us) */
+.join-us {
+  padding-top: 40px;
+  padding-bottom: 80px;
+  margin-bottom: 50px;
+  background-color: #f2f2f2;
+}
+
+.help {
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+
+}
+
+.equipe1 {
+  background-image: url("./components/images/femmes_enceinte/equipe.webp");
+  background-size: cover;
+  height: 400px;
+
+}
+
+.equipe2 {
+  background-image: url("./components/images/femmes_enceinte/equipe2.jpg");
+  background-size: cover;
+
+}
+
+.soutenir {
+  background-color: #0072be95;
+  padding: 30px 15px 30px 15px;
+  margin-top: 75px;
+  color: white;
+  font-family: 'Roboto Slab', serif;
+}
+
+/* fin de la section join us */
+
+.plat {
+
+  color: white;
+  font-weight: bold;
+  font-size: 40px;
+  font-family: 'Roboto Slab', serif;
+  background-color: #0072BE;
+  padding: 10px;
+}
+input .text-form{
+  font-size: 14px !important;
+}
+
+@media (min-width: 1025px) {
+  .h-custom {
+    height: 100vh !important;
+  }
+}
+
+.card-registration .select-input.form-control[readonly]:not([disabled]) {
+  font-size: 1rem;
+  line-height: 2.15;
+  padding-left: .75em;
+  padding-right: .75em;
+}
+
+.card-registration .select-arrow {
+  top: 13px;
+}
+
+@media (min-width: 992px) {
+  .card-registration-2 .bg-indigo {
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+  }
+}
+
+@media (max-width: 991px) {
+  .card-registration-2 .bg-indigo {
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+  }
+}
+
+/* traitement du footer */
+
+a {
+  -webkit-transition: .3s all ease;
+  -o-transition: .3s all ease;
+  transition: .3s all ease;
+}
+
+a:hover,
+a:focus {
+  text-decoration: none !important;
+  outline: none !important;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5 {
+  line-height: 1.5;
+  font-weight: 400;
+  font-family: "Poppins", Arial, sans-serif;
+}
+
+.ftco-footer-social li {
+  list-style: none;
+  margin: 0 10px 0 0;
+  display: inline-block;
+}
+
+.ftco-footer-social li a {
+  height: 40px;
+  width: 40px;
+  display: block;
+  background: rgba(0, 0, 0, 0.05);
+  border-radius: 50%;
+  position: relative;
+}
+
+.ftco-footer-social li a span {
+  position: absolute;
+  font-size: 20px;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.ftco-footer-social li a:hover {
+  color: #fff;
+}
+
+.form-control {
+  height: 52px;
+  background: #fff;
+  color: #000;
+  font-size: 18px;
+  border-radius: 0px;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.form-control:focus,
+.form-control:active {
+  outline: none !important;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+
+.ftco-section {
+  padding: 12em 0;
+}
+
+.ftco-section h2 {
+  margin-bottom: 0;
+}
+
+footer {
+  padding: 7em 0;
+}
+
+.footer-10 {
+  background: #222222;
+  padding: 0 0 4em 0;
+}
+
+.footer-10 .border-top,
+.footer-10 .border-bottom {
+  border-color: rgba(255, 255, 255, 0.1) !important;
+}
+
+.footer-10 .footer-heading {
+  font-size: 18px;
+  color: #fff;
+  margin-bottom: 30px;
+}
+
+.footer-10 p {
+  color: rgba(255, 255, 255, 0.3);
+}
+
+.footer-10 a {
+  color: rgba(255, 255, 255, 0.2);
+}
+
+.footer-10 .con.con-1 {
+  background: #1e1e1e;
+}
+
+.footer-10 .con.con-2 {
+  background: #1c1c1c;
+}
+
+.footer-10 .con.con-3 {
+  background: #252525;
+}
+
+.footer-10 .list-unstyled li a {
+  color: #fff;
+}
+
+
+.footer-10 .con-info .icon {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin: 0 auto;
+  margin-bottom: 10px;
+}
+
+.footer-10 .con-info .icon span {
+  color: #fff;
+  font-size: 24px;
+}
+
+.footer-10 .con-info span {
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.footer-10 .subscribe-form .form-group {
+  position: relative;
+  margin-bottom: 0;
+  border-radius: 0;
+}
+
+.footer-10 .subscribe-form .form-group input {
+  background: white !important;
+  border: none !important;
+  outline: none !important;
+  color:black !important;
+  font-size: 16px;
+  border-radius: 0;
+}
+
+.footer-10 .subscribe-form .form-group input::-webkit-input-placeholder {
+  /* Chrome/Opera/Safari */
+  color: rgba(0, 0, 0, 0.3) !important;
+}
+
+.footer-10 .subscribe-form .form-group input::-moz-placeholder {
+  /* Firefox 19+ */
+  color: rgba(0, 0, 0, 0.3) !important;
+}
+
+.footer-10 .subscribe-form .form-group input:-ms-input-placeholder {
+  /* IE 10+ */
+  color: rgba(0, 0, 0, 0.3) !important;
+}
+
+.footer-10 .subscribe-form .form-group input:-moz-placeholder {
+  /* Firefox 18- */
+  color: rgba(0, 0, 0, 0.3) !important;
+}
+
+.footer-10 .subscribe-form .form-group input:focus {
+  outline: none !important;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+.footer-10 .subscribe-form .form-group .submit {
+  color: #fff !important;
+  display: block;
+  width: 130px;
+  height: 52px;
+  font-size: 16px;
+  background: #0072BE !important;
+  border: none;
+  border-radius: 0;
+}
+
+.footer-10 .subscribe-form .form-group .submit:hover,
+.footer-10 .subscribe-form .form-group .submit:focus {
+  text-decoration: none !important;
+  outline: none !important;
+}
+
+.footer-10 .subscribe-form .subheading {
+  display: inline-block;
+  margin-top: 5px;
+  color: rgba(255, 255, 255, 0.3);
+  font-size: 13px;
+}
+
+.footer-10 .ftco-footer-social li a {
+  background: rgba(255, 255, 255, 0.1);
+  color: #fff;
+}
+
+
+/* les medias queries */
+
+@media (max-width:912px) {
+ 
+  .logo{
+    width: 200px !important;
+  }
+  
+  .navbar-collapse{
+    text-align: center;
+    
+  }
+  
+  .bouton {
+    margin: 0 auto !important;
+    font-size: 30px !important;
+  }
+  
+  /* #social{
+    display: flex;
+    flex-direction: column;
+  
+   } */
+  
+   .found-text{
+    font-size: 30px !important;
+   }
+   .fundation .card-title{
+    font-size: 29px !important;
+   }
+   .fundation .card-text{
+    font-size: 25px !important;
+   }
+   .help h1{
+    font-size: 30px !important;
+   }
+  
+   .help .buton{
+    font-size: 27px !important;
+    text-align: center;
+   }
+   .soutenir {
+   text-align: center;
+    padding: 25px 10px 25px 10px;
+   margin-top: 120px !important;
+   
+   
+  }
+  .equipe2 .buton{
+    margin-left: 0px !important;
+  }
+  .equipe2 .soutenir{
+    margin-bottom: 90px !important;
+  }
+  
+   .mission{
+    font-size: 30px !important;
+   }
+   .main-heading {
+    
+    font-size: 35px !important;
+  }
+  
+  .underline {
+    height: 03px;
+    width: 4rem;
+  }
+  .text-mission{
+    font-size: 30px !important;
+  }
+  .title-mission{
+    font-size: 28px !important;
+  }
+  .text-team{
+    font-size: 30px !important;
+  }
+  .team h5{
+    font-size: 28px !important;
+  }
+  .massah{
+    font-size: 25px !important;
+  }
+  .team .card-text{
+    font-size: 25px !important;
+  }
+  .maritime{
+    font-size:30px !important;
+  }
+  .postulez{
+    font-size: 25px !important;
+  }
+  .text-network{
+    font-size: 30px !important;
+  }
+  .network-title h5{
+    font-size: 15px !important;
+  }
+  .text-partner{
+    font-size: 30px !important;
+  }
+  .text-form{
+    font-size: 30px !important;
+  }
+  select {
+    font-size: 14px !important;
+  }
+  .blog h4{
+    font-size: 26px !important;
+  }
+  .blog-card h5{
+    font-size: 29px !important;
+  }
+  .blog-card h6{
+    font-size: 28px !important;
+  }
+  .blog-card .card-text{
+    font-size: 25px !important;
+  }
+  
+  .blog-card .button{
+    font-size: 22px !important;
+  }
+/* *{
+  border: solid;
+} */
+  
+}
+
+@media (max-width:540px) {
+ 
+  .logo{
+    width: 150px !important;
+  }
+  
+  .navbar-collapse{
+    text-align: center;
+  }
+  .bouton {
+    margin: 0 auto !important;
+    font-size: 19px !important;
+  }
+  
+  #social{
+    display: flex;
+    flex-direction: column;
+  
+   }
+  
+   .found-text{
+    font-size: 20px !important;
+   }
+   .fundation .card-title{
+    font-size: 24px !important;
+   }
+   .fundation .card-text{
+    font-size: 19px !important;
+   }
+   .help h1{
+    font-size: 25px !important;
+   }
+  
+   .help .buton{
+    font-size: 22px !important;
+    text-align: center;
+   }
+   .soutenir {
+   text-align: center;
+    padding: 25px 10px 25px 10px;
+   margin-top: 120px !important;
+   
+   
+  }
+  .equipe2 .buton{
+    margin-left: 0px !important;
+  }
+  .equipe2 .soutenir{
+    margin-bottom: 90px !important;
+  }
+  
+   .mission{
+    font-size: 19px !important;
+   }
+   .main-heading {
+    
+    font-size: 25px;
+  }
+  
+  .underline {
+    height: 03px;
+    width: 4rem;
+  }
+  .text-mission{
+    font-size: 19px !important;
+  }
+  .title-mission{
+    font-size: 20px !important;
+  }
+  .text-team{
+    font-size: 18px !important;
+  }
+  .team h5{
+    font-size: 19px !important;
+  }
+  .massah{
+    font-size: 17px !important;
+  }
+  .team .card-text{
+    font-size: 19px !important;
+  }
+  .maritime{
+    font-size: 20px !important;
+  }
+  .postulez{
+    font-size: 18px !important;
+  }
+  .text-network{
+    font-size: 19px !important;
+  }
+  .network-title h5{
+    font-size: 25px !important;
+  }
+  .text-partner{
+    font-size: 18px !important;
+  }
+  .text-form{
+    font-size: 17px !important;
+  }
+  select {
+    font-size: 14px !important;
+  }
+  .blog h4{
+    font-size: 26px !important;
+  }
+  .blog-card h5{
+    font-size: 24px !important;
+  }
+  .blog-card h6{
+    font-size: 19px !important;
+  }
+  .blog-card .card-text{
+    font-size: 17px !important;
+  }
+  
+  .blog-card .button{
+    font-size: 14px !important;
+  }
+  
+/* *{
+  border: solid;
+} */
+  
+}
+
+@media (max-width:375px){
+  .logo{
+    width: 100px !important;
+  }
+  
+  .navbar-collapse{
+    text-align: center;
+  }
+  .bouton {
+    margin: 0 auto !important;
+    font-size: 15px !important;
+  }
+  
+  #social{
+    display: flex;
+    flex-direction: column;
+  
+   }
+  
+   .found-text{
+    font-size: 17px !important;
+   }
+   .fundation .card-title{
+    font-size: 15px !important;
+   }
+   .fundation .card-text{
+    font-size: 14px !important;
+   }
+   .help h1{
+    font-size: 19px !important;
+   }
+  
+   .help .buton{
+    font-size: 17px !important;
+    text-align: center;
+   }
+   .soutenir {
+   text-align: center;
+    padding: 25px 10px 25px 10px;
+   margin-top: 120px !important;
+   
+   
+  }
+  .equipe2 .buton{
+    margin-left: 0px !important;
+  }
+  .equipe2 .soutenir{
+    margin-bottom: 90px !important;
+  }
+  
+   .mission{
+    font-size: 16px !important;
+   }
+   .main-heading {
+    
+    font-size: 17px !important;
+  }
+  
+  .underline {
+    height: 03px;
+    width: 4rem;
+  }
+  .text-mission{
+    font-size: 17px !important;
+  }
+  .title-mission{
+    font-size: 18px !important;
+  }
+  .text-team{
+    font-size: 17px !important;
+  }
+  .team h5{
+    font-size: 21px !important;
+  }
+  .massah{
+    font-size: 19px !important;
+  }
+  .team .card-text{
+    font-size: 16px !important;
+  }
+  .maritime{
+    font-size: 18px !important;
+  }
+  .postulez{
+    font-size: 20px !important;
+  }
+  .text-network{
+    font-size: 17px !important;
+  }
+  .network-title h5{
+    font-size: 19px !important;
+  }
+  .text-partner{
+    font-size: 17px !important;
+  }
+  .text-form{
+    font-size: 16px !important;
+  }
+  select {
+    font-size: 14px !important;
+  }
+  .blog h4{
+    font-size: 25px !important;
+  }
+  .blog-card h5{
+    font-size: 21px !important;
+  }
+  .blog-card h6{
+    font-size: 18px !important;
+  }
+  .blog-card .card-text{
+    font-size: 15px !important;
+  }
+  
+  .blog-card .button{
+    font-size: 14px !important;
+  }
+  }
+
+
+
+
+
+@media (max-width:280px){
+.logo{
+  width: 100px !important;
+}
+
+.navbar-collapse{
+  text-align: center;
+}
+.bouton {
+  margin: 0 auto !important;
+  font-size: 15px !important;
+}
+
+#social{
+  display: flex;
+  flex-direction: column;
+
+ }
+
+ .found-text{
+  font-size: 17px !important;
+ }
+ .fundation .card-title{
+  font-size: 19px !important;
+ }
+ .fundation .card-text{
+  font-size: 14px !important;
+ }
+ .help h1{
+  font-size: 19px !important;
+ }
+
+ .help .buton{
+  font-size: 17px !important;
+  text-align: center;
+ }
+ .soutenir {
+ text-align: center;
+  padding: 25px 10px 25px 10px;
+ margin-top: 120px !important;
+ 
+ 
+}
+.equipe2 .buton{
+  margin-left: 0px !important;
+}
+.equipe2 .soutenir{
+  margin-bottom: 90px !important;
+}
+
+ .mission{
+  font-size: 16px !important;
+ }
+ .main-heading {
+  
+  font-size: 23px;
+}
+
+.underline {
+  height: 03px;
+  width: 4rem;
+}
+.text-mission{
+  font-size: 15px !important;
+}
+.title-mission{
+  font-size: 18px !important;
+}
+.text-team{
+  font-size: 16px !important;
+}
+.team h5{
+  font-size: 21px !important;
+}
+.massah{
+  font-size: 19px !important;
+}
+.team .card-text{
+  font-size: 16px !important;
+}
+.maritime{
+  font-size: 18px !important;
+}
+.postulez{
+  font-size: 20px !important;
+}
+.text-network{
+  font-size: 17px !important;
+}
+.network-title h5{
+  font-size: 19px !important;
+}
+.text-partner{
+  font-size: 17px !important;
+}
+.text-form{
+  font-size: 16px !important;
+}
+select {
+  font-size: 14px !important;
+}
+.blog h4{
+  font-size: 25px !important;
+}
+.blog-card h5{
+  font-size: 21px !important;
+}
+.blog-card h6{
+  font-size: 18px !important;
+}
+.blog-card .card-text{
+  font-size: 15px !important;
+}
+
+.blog-card .button{
+  font-size: 14px !important;
+}
+.footer-heading{
+  text-align: center;
+}
+.carousel-caption {
+  margin-bottom: 0px !important;
+  font-size: 12px !important;
+  padding: 20px !important;
+}
+
+}
+
+
+
+
+
+
+
+
+
+@media (max-width){
+
+}
